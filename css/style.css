@@ -1,0 +1,740 @@
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: #ffffff;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #06E344;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #06E344;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+.error{
+    padding: 2%;
+    color: red;
+
+}
+.success{
+    padding: 2%;
+    color: green;
+}
+
+
+/* CSS for navbar section */
+
+.hero-btn{
+    display:inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30PX;
+    font-weight: bold;
+    }
+    .hero-btn:hover{
+    border:1px solid #06E344;
+    background: #06E344;
+    color:#fff;
+    transition: 1s;
+    }
+    
+.text-center h1{
+	font-size: 62px;
+	padding-bottom: 3%;
+	color:#fff;
+}
+
+.text-center h2{
+	color:#fff;
+	font-family:Lucida Console;
+}
+
+.text-center p{
+	color:#fff;
+	padding:3%;
+
+}
+
+.logo{
+    width: 10%;
+    float: left;
+	margin-left:-60px;
+}
+.menu{
+    line-height: 40px;
+ 
+}
+/* .navbar {
+    background: rgb(3, 76, 60);
+    height: 80px;
+} */
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+	
+}
+
+.change-text{
+    margin-right: 13%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: "Poppins",sans-serif;
+    color:rgb(40, 172, 13);
+}
+
+.change-text h3{
+    font-size: larger;
+    display: inline-flex;
+    margin: 0;
+    vertical-align: top;
+}
+.change-text h3 .word{
+    position: absolute;
+    display: flex;
+    opacity: 0;
+}
+
+.change-text h3 .word .letter{
+    transform-origin: center center 25px;
+}
+
+.change-text h3 .word .letter.out{
+    transform: rotateX(90deg);
+    transition: 0.32s cubic-bezier(0.6,0,0.7,0.2);
+}
+
+.change-text h3 .word .letter.in{
+    transition: 0.38s ease;
+}
+
+.change-text h3 .word .letter.behind{
+    transform: rotateX(-90deg);
+}
+
+
+/* CSS for Food SEarch Section */
+
+.Plant-search{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+	position: relative;
+	min-height: 80vh;
+	 
+}
+
+.Plant-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/*--------How it's Works-------*/
+.Plant{
+width: 80%;
+margin: auto;
+text-align: center;
+padding: 100px;
+}
+h1{
+font-size: 36px;
+font-weight: 600px;
+}
+p{
+color: #777;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+padding: 10px;
+}
+
+.row{
+margin-top: 5%;
+display: flex;
+justify-content: space-between;
+}
+.Plant-col{
+flex-basis: 31%;
+background: #fff3f3;
+border-radius:10px ;
+margin-bottom: -15%;
+padding: 20px 12px;
+box-sizing: border-box;
+transition: 0.5s;
+}
+.Plant-col:hover{
+    transform: translateY(-.7rem);
+}
+
+h3{
+text-align: center;
+font-weight: 600;
+margin: 10px 0;
+}
+
+
+.Plant_img-col img{
+height: 150px;
+width:150px;
+border-radius: 50%;
+}
+
+
+
+.Plant-col:hover{
+box-shadow: 0 0 20px 0px rgba(0,0,0,0.2) ;
+}
+@media(max-width:600px){
+.row{
+    flex-direction: column;
+}
+}
+
+/*---------Welcome------------*/
+
+.sub-header {
+margin-top: 75px;
+}
+.about-us{
+width: 87%;
+margin: auto;
+padding-top: 80px;
+padding-bottom: 0px;
+}
+
+.about-col{
+  flex-basis:48%;
+  padding: 30px 2px;
+}
+.about-col img{
+width: 100%;
+}
+.about-col h1{
+padding-top: 0;
+}
+.about-col p{
+padding: 15px 0 25px;
+}
+.red-btn{
+border: 1px solid #0eb668;
+background: transparent;
+color: #0eb668;
+
+}
+
+
+
+/*-----testimonials-----*/
+.testimonials{
+width: 80%;
+margin: auto;
+padding-top: 100px;
+text-align: center;
+}
+.testimonial-col{
+flex-basis: 44%;
+border-radius: 10px;
+margin-bottom: 5%;
+text-align: left;
+background: #fff3f3;
+padding: 25px;
+cursor: pointer;
+display: flex;
+}
+.testimonial-col img{
+height: 40px;
+margin-left: 5px;
+margin-left: 30px;
+border-radius: 50%;
+}
+.testimonial-col h3{
+margin-top: 15px;
+text-align: left;
+}
+.testimonial-col .fa{
+color: #06E344;
+}
+
+/* Explore Plants */ 
+.float-text1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+.layer:hover{
+    background: rgba(231, 231, 231, 0.863);
+    border-radius: 15px;
+    bottom: -6.5px;
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+    
+}
+
+/* CSS for Categories */
+.categories-search{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/categbg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 7% 0;
+
+}
+
+.categories{
+    padding: 4% 0;
+	
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Plant Menu */
+
+.Plants-search{
+    background-image: linear-gradient(rgba(21, 33, 82, 0.7), rgba(21, 33, 80, 0.7)),url(../images/plant-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.Plants-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+.plant-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.plant-menu-box{
+    width: 43%;
+	height:210px;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    background-color: white;
+    border-radius: px;
+	transition: 0.5s;
+	
+}
+
+.plant-menu-box:hover{
+box-shadow: 0 0 20px 0px rgba(0,0,0,0.2) ;
+}
+.plant-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.plant-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.plant-price{
+    font-weight: bold;
+    color: #0cca3b;
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.plant-detail{
+    font-size: 1rem;
+    color: #5e5c5c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+
+
+.plantsorder-search{
+    background-image:linear-gradient(rgba(21, 33, 82, 0.7),rgba(21, 33, 80, 0.7)),url(../images/plant-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%; 
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+/* Contact page CSS  */
+.container h1{
+font-size:45px;
+}
+.Plants-contact{
+    background-image: url(../images/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+.location{
+    width:80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width:100%;
+}
+.contact-us{
+   width: 80%;
+   margin: auto;
+}
+.cotact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}    
+.contact-col div .fa{
+    font-size: 28px;
+    color: #46f436;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col div p{
+    padding: 0;
+}
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+.contact-col input,.contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .plant-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .plant-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .Plant-menu{
+        padding: 20% 0;
+    }
+
+    .Plant-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+		
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
+/*----------  Our Blog  --------*/
+.container h1 {
+    font-size: 45px;
+}
+
+.Plants-blog {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/Welcome.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.blog-content {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.blog-left {
+    flex-basis: 65;
+}
+
+.blog-left img {
+    width: 100%;
+}
+
+.blog-left h2 {
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.blog-left p {
+    color: #999;
+    padding: 0;
+}
+
+.comment-box {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.comment-box h3 {
+    text-align: left;
+
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+
+}
+
+.comment-form button {
+    margin: 10px 0;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+   
+    
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px) {
+    .logo {
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul {
+        text-align: center;
+    }
+
+    .plant-search input[type="search"] {
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn {
+        width: 91%;
+        padding: 2%;
+    }
+
+    .plant-search {
+        padding: 10% 0;
+    }
+
+    .categories {
+        padding: 20% 0;
+    }
+
+    h2 {
+        margin-bottom: 10%;
+    }
+
+    .box-3 {
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .Plant-menu {
+        padding: 20% 0;
+    }
+
+    .Plant-menu-box {
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+
+    }
+
+    .social {
+        padding: 5% 0;
+    }
+
+    .order {
+        width: 100%;
+    }
+}

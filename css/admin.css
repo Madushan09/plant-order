@@ -1,0 +1,196 @@
+/*
+Author:Nature Hub;
+Theme: Plant order website Admin;
+version:1.0;
+*/
+
+.main-content1{
+    background-color: #f1f2f6;
+    padding: 1% 0;
+}
+.wrapper1{
+    padding: 1%;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .tbl-full1{
+    width: 100%;
+}
+
+.btn-secondary1{
+    background-color: #7bed9f;
+    padding: 5px;
+    color: rgb(39, 37, 37);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary1:hover{   
+    background-color:#2ed573 ;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-center{
+text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 31%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+    font-weight: bold;
+}
+table tr td{
+    padding: 1%;
+
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color:#3742fa ;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: rgb(39, 37, 37);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{   
+    background-color:#2ed573 ;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{   
+    background-color:#ff4757 ;
+}
+
+
+.success{
+    color: #ff4757;
+    font-weight: bold;
+}
+.error{
+    color: #ff4757;
+    font-weight: bold;
+}
+
+.success1{
+    color: #2ed573;
+    font-weight: bold;
+}
+.error1{
+    color: #ff4757;
+    font-weight: bold;
+}
+/* css for Menu */
+.menu{
+    border-bottom: 1px solid rgb(209, 206, 206);
+    padding: 0.5%;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #06E344;
+
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+/* css for Main-content*/
+
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* css for Footer */
+.footer{
+    background-color: #2ecc71;
+    color: white;
+}
+
+/* css for Login*/
+.login{
+    border: 1px solid gray;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+}
+/* css for Logout button*/
+    .btn-primary2{
+        background-color: #06E344;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 1%;
+        border-radius: 10px;
+    }
+    .btn-primary2:hover{
+        color: white;
+        background-color: #ff4757;
+        font-weight: bold;
+        transition: 0.7s;
+    }
